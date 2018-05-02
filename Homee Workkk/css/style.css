@@ -1,0 +1,74 @@
+#Basliq {
+  background: #272727;
+  width: 100%;
+  height: 50px;
+}
+#Basliq .custom-col {
+  color: white;
+  box-sizing: border-box;
+}
+#Basliq .custom-col h3 {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  transition: .8s ease;
+  cursor: pointer;
+}
+#Basliq .custom-col h3:hover {
+  color: gold;
+}
+#Basliq .custom-col i {
+  color: gold;
+  font-size: 18px;
+}
+#Basliq .custom-col .col-md-3 .cstm2 {
+  margin-left: 5px;
+}
+#Basliq .custom-col .col-md-3 .cstm2 i {
+  color: white;
+  margin-top: 17px;
+  margin-left: 15px;
+  font-size: 15px;
+  transition: .5s ease;
+  cursor: pointer;
+}
+#Basliq .custom-col .col-md-3 .cstm2 i:hover {
+  color: gold;
+}
+
+#SlideNav {
+  background-color: transparent;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  padding: 25px;
+}
+#SlideNav .col-md-7 a {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  transition: .5s ease;
+}
+#SlideNav .col-md-7 a:hover {
+  color: gold;
+}
+#SlideNav .col-md-7 i {
+  margin-top: 15px;
+  color: white;
+}
+#SlideNav .col-md-7 i:hover {
+  color: gold;
+}
+#SlideNav .col-md-1 i {
+  cursor: pointer;
+  color: white;
+  margin-top: 15px;
+}
+#SlideNav .col-md-1 i:hover {
+  color: gold;
+}
