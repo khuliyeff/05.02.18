@@ -71,7 +71,8 @@ var Slider = function (selector) {
        
         innerSlider.children.item(i).css({
             width: innerSlider.clientWidth / innerSlider.childElementCount+"px",
-            float: "left"
+            float: "left",
+            position:"relative"
 
     })
         

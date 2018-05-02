@@ -85,3 +85,48 @@
 
 
 }
+#slider{
+    div{
+       h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8em;
+        position: absolute;
+        color: white;
+        top: 32%;
+        margin-left: 25%;
+        text-align: center;
+       }  
+       h2{
+        font-size: 1.8em;
+        position: absolute;
+        color: white;
+        top:48%;
+        left: 26%;
+        text-align: center;
+    }
+       .border{
+           width: 3%;
+           position: absolute;
+           z-index: 100;
+           top: 34%;
+           left:50%;
+           border: 1px solid gold;
+       }
+       button{
+           width: 15%;
+           height: 40px;
+           background-color: #f2bd00;
+           color: #f2f2f2;
+           font-size: 13px;
+           position: absolute;
+           border: none;
+           left:43%;
+           top:58%;
+           transition: .6s ease;
+           border-radius: 5px;
+           &:hover{
+               background-color: black;
+           }
+       }
+    }
+}
